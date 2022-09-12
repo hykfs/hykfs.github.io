@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script>
+        function autoRefresh() {
+            window.location = window.location.href;
+        }
+        //每隔1小时刷新页面
+        setInterval('autoRefresh()',3600000);
+    </script>
+</head>
+<body onload="time()">
+    <!--------功能区（换肤） start-------->
+    <shop>
+        <span id="kk">👉</span>
+        <img src="image/换肤.png" alt="" draggable="false" style="width:30px;height:30px;margin-top:10px;margin-left:21px;cursor:url(image/x2.cur),auto;border-bottom:2px solid red;;">
+        <span id="yy">👈</span>
+        <span id="tt">⬇️</span>
+        <!-- ⬆️⬇️(❤️ ω ❤️)(❁´◡`❁)(👉ﾟヮﾟ)👉👈(ﾟヮﾟ👈) -->
+        <ul>
+            <li><img src="image/1-4.jpg" alt="" draggable="false" style="cursor:url(image/x2.cur),auto;"></li>
+            <li><img src="image/1-1.jpg" alt="" draggable="false" style="cursor:url(image/x2.cur),auto;"></li>
+            <li><img src="image/1-6.jpg" alt="" draggable="false" style="cursor:url(image/x2.cur),auto;"></li>
+            <li><img src="image/1-5.jpg" alt="" draggable="false" style="cursor:url(image/x2.cur),auto;"></li>
+            <li><img src="image/s-1.jpg" alt="" draggable="false" style="cursor:url(image/x2.cur),auto;"></li>
+        </ul>
+    </shop>
+    <!--------功能区（换肤） end---------->
+
+    <!--------系统时间 start-------->
+    <main-top style="box-shadow:inset 5px 5px 10px #b1b4b6, inset -5px -5px 10px #ffffff;">
+        <div class="box1" style="width: 150px;height: 35px;border-bottom: 2px solid green;text-align: center;line-height: 35px;
+        color: rgb(0, 229, 255);font-family: UnidreamLED;font-size: 21px;"></div>
+        <div class="box2 UnidreamLED" style="width: 150px;height: 35px;text-align: center;line-height: 35px;color: rgb(0, 229, 255);font-family: UnidreamLED;font-size: 21px;"></div>
+    </main-top>
+    <!--------系统时间 end---------->
+
+    <!--------主题 start-------->
+    <main onload="time()">
+        <div class="content" style="position:absolute;left:25px;width:300px;height:260px;border-radius:30px;text-align: center;"></div>
+        <button style="position:absolute;bottom:5px;left:145.5px;background-color: rgba(255, 192, 203, 0.181);"><img src="image/指纹认证.png" alt="" draggable="false" id="btn_img" style="width:60px;height:60px;background-color:transparent;"></button>
+    </main>
+    <!--------主题 end---------->
+
+    <!--------背景小图 strat-------->
+    <background-smallImg>
+        <div class="smallImg1" id="gr1"></div>
+        <div class="smallImg2" id="gr1"></div>
+        <div class="smallImg3" id="gr1"></div>
+        <div class="smallImg4" id="gr1"></div>
+        <div class="smallImg5" id="gr1"></div>
+        <div class="smallImg6" id="gr1"></div>
+        <div class="smallImg7" id="gr2"></div>
+        <div class="smallImg8" id="gr2"></div>
+        <div class="smallImg9" id="gr2"></div>
+        <div class="smallImg10" id="gr2"></div>
+        <div class="smallImg11" id="gr2"></div>
+        <div class="smallImg12" id="gr2"></div>
+    </background-smallImg>
+    <!--------背景小图 end---------->
+    <div class="msg" style="position:absolute;top:35%;left:44.3%;width:200px;height:180px;background:linear-gradient( to right bottom, rgba(255, 113, 191, 0.5), rgba(153, 231, 223, 0.359) );;display:none;border-radius:15px;">
+        <h4 style="text-align:center;margin-top: 10px;font-family: serif;color: rgb(38, 238, 131);">消息提示框</h4>
+        <p style="text-align:center;margin-top:40px;font-family: cursive;font-size: 18px;color: rgba(255, 0, 230, 0.806);">❤️欢迎登录❤️</p>
+        <p class="fs1" style="text-align:center;margin-top:30px;font-family:'幼圆';"></p>
+    </div>
+
+    <script src="js/login.js" type="text/javascript"></script>
+
+</body>
+</html>
