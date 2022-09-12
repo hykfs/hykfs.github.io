@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: url(../image/1-4.jpg) no-repeat;
+    background-size: cover;
+    cursor: url(../image/x1.cur),auto;
+    z-index: -11;
+}
+img:active {
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(0, 60, 255);
+}
+ul {
+    display: none;
+    width: 200px;
+}
+ul li {
+    width: 200px;
+    height: 100px;
+}
+ul li img { 
+    width: 200px;
+    height: 100px;
+}
+.hyk {
+    background-size: cover;
+}
+span {
+    position: absolute;
+    top: 13px;
+}
+span:nth-child(3) {
+    position: absolute;
+    left: 72px;
+    /* margin-left: 60px; */
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -175px;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    background: linear-gradient(to right top, rgba(110, 227, 219, 0.516),rgba(166, 138, 231, 0.466));
+    backdrop-filter: blur(0.6px);
+    /* background-color: rgba(83, 98, 233, 0.276); */
+}
+main .content p {
+    font-family:'幼圆';
+    lighting-color: aqua;
+    font-weight: 700;
+    top: 10px;
+    margin-top: 20px;
+}
+main #btn_img:hover {
+    cursor: url(../image/x2.cur),auto;
+}
+main #btn_img:active {
+    transform: scale(0.99);
+    box-shadow: 6px 4px 22px 6px rgb(14, 226, 216);
+}
+main-top {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.741);
+    /* background: linear-gradient(to right top, rgba(110, 227, 219, 0.516),rgba(166, 138, 231, 0.466)); */
+    backdrop-filter: blur(0.2px);
+    /* background-color: rgba(83, 98, 233, 0.276); */
+}
+.smallImg1 {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/摩羯座_capricornus.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(157, 89, 245);
+}
+.smallImg2 {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/双子座_gemini.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(153, 86, 240);
+}
+.smallImg3 {
+    position: absolute;
+    top: 280px;
+    left: 70px;
+    width: 30px;
+    height: 30px;
+    color: red;
+    background: url(../image/双鱼座_pisces.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(144, 69, 241);
+}
+.smallImg4 {
+    position: absolute;
+    top: 460px;
+    left: 250px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/处女座_virgo.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(161, 99, 241);
+}
+.smallImg5 {
+    position: absolute;
+    top: 680px;
+    left: 400px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/天秤座_libra.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(161, 99, 241);
+}
+.smallImg6 {
+    position: absolute;
+    top: 850px;
+    left: 170px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/天蝎座_scorpio.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(165, 104, 246);
+}
+.smallImg7 {
+    position: absolute;
+    top: 850px;
+    right: 170px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/射手座_sagittarius.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(155, 83, 248);
+}
+.smallImg8 {
+    position: absolute;
+    top: 700px;
+    right: 350px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/巨蟹座_cancer.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(149, 79, 240);
+}
+.smallImg9 {
+    position: absolute;
+    top: 550px;
+    right: 550px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/金牛座_taurus.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(146, 78, 235);
+}
+.smallImg10 {
+    position: absolute;
+    top: 420px;
+    right: 150px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/水瓶座_aquarius.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(149, 82, 238);
+}
+.smallImg11 {
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/狮子座_leo.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(155, 89, 241);
+}
+.smallImg12 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+    background: url(../image/白羊座_aries.png) no-repeat;
+    background-size: cover;
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgb(153, 86, 240);
+}
+.hyk1 {
+    opacity: 0.5;
+}
+@keyframes gr1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+#gr1 {
+    animation: gr1 3s linear 0.1s infinite;
+}
+@keyframes gr2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+#gr2 {
+    animation: gr2 3s linear 0.1s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

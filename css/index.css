@@ -1,0 +1,445 @@
+/*UnidreamLED字体*/
+@font-face {
+  font-family: "UnidreamLED";
+  src: url("../UnidreamLED.ttf") format("truetype");
+}
+.UnidreamLED {
+  font-family: "UnidreamLED", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  cursor: url(../image/x1.cur),auto;
+  /* background: url(../image/1-3.png) no-repeat; */
+  background-size: cover;
+  z-index: -99999;
+  /* overflow: scroll; */
+  overflow-x: hidden;
+  /* overflow-y: visible; */
+  /* height: 2000px; */
+  /* opacity: 0.5; */
+  
+}
+/* body::-webkit-scrollbar{
+  display: none;
+} */
+
+  /*滚动条样式*/
+body::-webkit-scrollbar {
+  width: 8px;    
+  height: 4px;
+  background: red;
+}
+body::-webkit-scrollbar-thumb {
+    /* border-radius: 1px;
+    box-shadow: inset 0 0 5px rgba(10, 49, 227, 0.2); */
+    background: #00aeff;
+}
+body::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px rgba(128, 224, 45, 0.2);
+    border-radius: 0; */
+    background: #edede9;
+}
+a {
+  cursor: url(../image/x2.cur),auto;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  /* background: linear-gradient(to bottom right, rgba(140, 190, 231, 0.543), rgba(169, 130, 231, 0.358)); */
+  background: linear-gradient(to bottom right, rgba(231, 236, 232, 0.189), rgba(177, 224, 212, 0.135));
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.3s linear;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+  z-index: 999;
+  /* opacity: 0; */
+}
+nav #music1,
+nav #music2:hover {
+  cursor: url(../image/x2.cur),auto;
+}
+nav #music1:active{
+  transform: scale(0.99);
+  border: 2px solid green;
+  box-shadow: 1px 1px 22px 8px rgb(3, 227, 252);
+}
+nav #music2:active {
+  transform: scale(0.99);
+  border: 2px solid green;
+  box-shadow: 1px 1px 22px 8px rgb(3, 227, 252);
+}
+.logo {
+  text-align: center;
+  display: flex;
+  transition: all 0.5s ease;
+  margin: 10px 0 0 1px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.logo span {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+}
+a {
+  position: relative;
+  /* color: rgba(236, 228, 228, 0.61); */
+  font-size: 14px;
+  display: flex;
+  width: 159px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.fa-solid {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 30%;
+}
+.nav-item {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  margin-left: 9.5px;
+  /* color: rgba(255, 255, 255, 0.477); */
+}
+  /* a:nth-child(1):hover {
+    background:  rgba(255, 255, 255, 0.126);
+  } */
+#fs {
+  transition: all 1s;
+}
+#fs:hover {
+  background: rgba(232, 182, 88, 0.468);
+  /* transform: scale(1.2); */
+}
+/* #fs:active .item {
+  height: 913px;
+} */
+nav:hover {
+  width: 160px;
+  transition: all 0.5s ease;
+}
+.logout {
+  position: absolute;
+  bottom: 0;
+}
+.logout:hover {
+  background: rgba(54, 142, 231, 0.468);
+}    
+main {
+  position: absolute;
+  right: 9.6px;
+  font-family: fantasy;
+  /* top: 0; */
+  /* height: 100%; */
+  /* width: 90.4%; */
+  /* overflow-y: hidden; */
+  /* height: 2000px; */
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  overflow: hidden;
+  z-index: 888;
+  transition: all 1s;
+  /* opacity: 0; */
+  /* background-color: rgba(228, 228, 238, 0.747); */
+}
+ .moshi1 button img {
+  cursor: url(../image/x2.cur),auto;
+}
+ .moshi1 button img:hover {
+  background-color: orange;
+}
+@keyframes shezhi {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+ .moshi1 .btn4 img {
+  animation: shezhi 2.5s linear 0.1s infinite;
+}
+ .moshi {
+  position: absolute;
+  right: 19px;
+  top: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+nav .music {
+  position: absolute;
+  left: -80px;
+  top: 600px;
+  display: none;
+}
+nav .music audio {
+  width: 260px;
+  /* height: 60px; */
+  transform: rotate(90deg);
+}
+main .moshi img {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+main .moshi img:active {
+  transform: scale(0.99);
+  /* transform: rotateX(180deg); */
+  /* box-shadow: 1px 1px 22px 8px rgb(40, 3, 252); */
+}
+/* main .item:nth-child(0) {
+  height: 1000px;
+} */
+main .item {
+  /* position: absolute; */
+  /* margin-right: -200px; */
+  height: 913.5px;
+  /* height: 240px; */
+  /* height: 40px; */
+  width: 1534px;
+  /* transition-property: height; */
+  /* transition-duration: 8s; */
+  /* transition: all 4s; */
+  /* top: -800px; */
+  /* background: linear-gradient( to right bottom, rgba(151, 232, 217, 0.301), rgba(198, 166, 234, 0.305) ); */
+  background: linear-gradient( to right bottom, rgba(172, 216, 161, 0.122), rgba(228, 138, 223, 0.183) );
+  display: none;
+  
+  /* transition: all 10s; */
+  padding: 20px 20px;
+}
+@keyframes ks {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* .msg_box .ks {
+  animation: ks 1.5s linear 0.1s infinite;
+} */
+@keyframes w {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+nav .musicImg {
+  background: url(../image/音乐_music-one.png) no-repeat;
+  background-size: cover;
+}
+.jiuli1:hover {
+  background-color: red;
+}
+@keyframes myphoto {
+  0% {
+    transform: rotate(0deg);
+    /* box-shadow: 1px 1px 22px 8px rgb(59, 230, 221); */
+  }
+  25% {
+    transform: rotate(90deg);
+    box-shadow: 1px 1px 22px 8px rgb(59, 230, 221);
+  }
+  50% {
+    transform: rotate(180deg);
+    box-shadow: 1px 1px 22px 8px rgb(59, 230, 85);
+  }
+  75% {
+    transform: rotate(270deg);
+    box-shadow: 1px 1px 22px 8px rgb(224, 56, 239);
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 1px 1px 22px 8px rgb(59, 99, 230);
+  }
+}
+#myphoto {
+  animation: myphoto 5.5s linear 0.1s infinite;
+}
+@keyframes btn1 {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(-60px,0);
+  }
+}
+@keyframes btn2 {
+  0% {
+    transform: translate(-60px,0);
+  }
+  100% {
+    transform: translate(0px,0);
+  }
+}
+@keyframes nav1 {
+  0% {
+    transform: translate(0px,0);
+  }
+  100% {
+    transform: translate(-90px,0);
+  }
+}
+@keyframes nav2 {
+  0% {
+    transform: translate(-90px,0);
+  }
+  100% {
+    transform: translate(0px,0);
+  }
+}
+@keyframes main {
+  0% {
+    transform: translate(1534px,0);
+  }
+  100% {
+    transform: translate(0px,0);
+  }
+}
+@keyframes main1 {
+  0% {
+    transform: translate(0px,0);
+  }
+  100% {
+    transform: translate(-1700px,0);
+  }
+}
+@keyframes main2 {
+  0% {
+    transform: translate(-1700px,0);
+  }
+  100% {
+    transform: translate(0px,0);
+  }
+}
+@keyframes nav_right1 {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(0px,925px);
+  }
+}
+@keyframes nav_right2 {
+  0% {
+    transform: translate(0,925px);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+/* main .item:nth-child(0) {
+  animation: main 3.5s linear 0s forwards;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
